@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    --Neon-Blue: hsl(226, 100%, 50%);
+    --White-Blue: hsl(216, 5%, 82%);
+    --Dark-Blue: hsl(219, 100%, 22%);
+    --Light-Blue: hsl(218, 100%, 47%);
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White-Blue);
+}
+
+.advice-card {
+    width: 500px;
+    background-color: var(--Dark-Blue);
+    border-radius: 1rem;
+    position: relative;
+}
+
+.card-container {
+    padding: 2rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+p {
+    color: var(--White-Blue);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+h2 {
+    color: var(--White-Blue);
+    font-size: 28px;
+}
+
+picture img {
+    margin-bottom: 1rem;
+}
+
+button {
+    position: absolute;
+    bottom: -30px;
+    background-color: var(--Light-Blue);
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 0.75rem hsl(226, 100%, 50%));
+    transition: all 0.2s ease-out;
+}
+
+@media  screen and (max-width:500px) {
+    .advice-card {
+        width: 350px;
+    }
+}

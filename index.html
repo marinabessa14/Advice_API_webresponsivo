@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Advice API</title>
+</head>
+<body>
+    <div class="advice-card">
+        <div class="card-container">
+            <p>Advice #<span id="advice-id"></span></p>
+            <h2>" <span id="advice-text"></span> "</h2>
+            <picture>
+                <source media="(max-width:500px)" src="img/pattern-divider-mobile.svg">
+                <img src="img/pattern-divider-desktop.svg" alt="dice">
+            </picture>
+            <button id="generate-btn">
+                <img src="img/icon-dice.svg" alt="dice">
+            </button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
