@@ -1,0 +1,1 @@
+Este projeto é um desafio do frontend mentor, é uma página de conselhos aleatórios, é um projeto em HTML/CSS e JavaScript, e a API que foi consumida foi a api advice api, é um desenvolvimento web responsivo.
